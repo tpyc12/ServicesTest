@@ -46,7 +46,7 @@ class MyForegroundService : Service() {
     }
 
     private fun log(message: String) {
-        Log.d("SERVICE_TAG", "MyService: $message")
+        Log.d("SERVICE_TAG", "MyForegroundService: $message")
     }
 
     @SuppressLint("ObsoleteSdkInt")

@@ -39,7 +39,7 @@ class MyIntentService : IntentService(NAME) {
     }
 
     private fun log(message: String) {
-        Log.d("SERVICE_TAG", "MyService: $message")
+        Log.d("SERVICE_TAG", "MyIntentService: $message")
     }
 
     @SuppressLint("ObsoleteSdkInt")

@@ -1,15 +1,10 @@
 package com.myhome.android.servicestest
 
-import android.annotation.SuppressLint
 import android.app.IntentService
-import android.app.NotificationChannel
-import android.app.NotificationManager
 import android.content.Context
 import android.content.Intent
-import android.os.Build
 import android.os.IBinder
 import android.util.Log
-import androidx.core.app.NotificationCompat
 
 class MyIntentServiceForJob : IntentService(NAME) {
 
@@ -38,7 +33,7 @@ class MyIntentServiceForJob : IntentService(NAME) {
     }
 
     private fun log(message: String) {
-        Log.d("SERVICE_TAG", "MyService: $message")
+        Log.d("SERVICE_TAG", "MyIntentServiceForJob: $message")
     }
 
     companion object {
