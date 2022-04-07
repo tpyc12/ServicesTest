@@ -25,6 +25,7 @@
             android:name=".MyForegroundService"
             android:permission="android.permission.FOREGROUND_SERVICE" />
         <service android:name=".MyIntentService" />
+        <service android:name=".MyIntentServiceForJob" />
         <service
             android:name=".MyJobService"
             android:permission="android.permission.BIND_JOB_SERVICE" />
